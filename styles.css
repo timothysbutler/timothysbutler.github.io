@@ -54,8 +54,8 @@ h1 {
     margin-left: 5px;
 }
 
-embed {
-    
+img {
+    max-width: 100%;
 }
 
 /*footer {
