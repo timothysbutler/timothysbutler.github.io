@@ -54,8 +54,10 @@ h1 {
     margin-left: 5px;
 }
 
-img {
-    max-width: 100%;
+.main {
+    display: block;
+    width: 50%;
+    margin-right: auto;
 }
 
 /*footer {
