@@ -56,8 +56,20 @@ h1 {
 
 .main {
     display: block;
-    width: 50%;
+    width: 60%;
     margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px;
+}
+
+.main_text {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
 }
 
 /*footer {
