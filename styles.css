@@ -75,8 +75,9 @@ h1 {
 .about_text {
     color: white;
     text-align: center;
-    margin: auto;
-    padding: 5px 20px;
+    margin-left: 128px;
+    margin-right: 128px;
+    padding: 10px;
 }
 
 .email{
@@ -88,7 +89,7 @@ h1 {
     color: white;
     text-align: center;
     padding: 10px;
-    
+
 }
 
 /*footer {
