@@ -92,6 +92,18 @@ h1 {
 
 }
 
+.portfolio {
+    color: white;
+    text-align: center;
+}
+
+.portfolio_img {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*footer {
     position: fixed;
     left: 0;
