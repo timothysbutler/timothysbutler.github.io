@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============== scroll reveal cdn ================ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ============== box icon cdn  ===================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ============== custom css file ==================  -->
+    <link rel="stylesheet" href="dist/style.css">
+
+    <title>Mini portfolio.</title>
+</head>
+<body>
+    <!-- =============== home page ==================  -->
+    <div class="home-section section flex " id="home">
+        <!-- navigation menu  -->
+        <div class="header-nav">
+            <!-- mode change icon  -->
+            <div class="mode-change-icon">
+                <i class="bx bx-moon" id="mode-change-icon"></i>
+            </div>
+
+            <!-- menu icon  -->
+            <div class="menu-icon">
+                <i class='bx bx-grid-alt' id="menu-icon"></i>
+            </div>
+
+            <!-- nav list  -->
+            <ul class="header-nav-list nav flex" id="header-nav-list">
+                <li>
+                    <a href="#home" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <!-- hero section  -->
+        <div class="hero flex">
+            <div class="hero-img flex">
+                <img src="img/main_photo.png" class="profile-pic" alt="">
+            </div>
+            <!-- hero content  -->
+            <div class="hero-content flex">
+                <h1 class="header"> 
+                    <span>Timothy Butler</span>
+                    <p>Software | Mechanical Engineer</p>
+                </h1>
+            </div>
+    
+            <!-- social icon list  -->
+            <div class="social-icon-list">
+                <ul class="nav flex">
+                    <li><a class="social-icon" href="https://www.linkedin.com/in/timothy-s-butler/" target="_blank">
+                        <i class="bx bxl-linkedin"></i>
+                    </a></li>
+                    <li><a class="social-icon" href="https://www.instagram.com/itsmrbutler/" target="_blank">
+                        <i class="bx bxl-instagram"></i>
+                    </a></li>
+                    <li><a class="social-icon" href="https://github.com/timothysbutler" target="_blank">
+                        <i class="bx bxl-github"></i>
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="scroll-top-icon" id="scroll-up">
+                <i class="bx bxs-chevron-up-circle" id="scroll-top-icon"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============== projects section ============ -->
+    <div class="project-section section" id="projects">
+        <h1 class="section-header">
+            Projects
+        </h1>
+
+        <div class="project project-1 flex">
+            <div class="project-img">
+                <a href="img/AR_Pacman.png" target="_blank">
+                    <img src="img/AR_Pacman.png" alt="AR Pac-Man Poster">
+                </a>
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                    AR Pac-Man Game
+                </h1>
+
+                <p class="project-description">
+                    THE iconic Pac-Man arcade game, recreated in an agumented reality (AR) style. This project started during my last semester at Oregon State University along side with another classmate. My controbution to the project was mostly the game itself with the 3D models. The game still has plenty of bugs (hey it was my first game ever), but I slowly am working on it to have a fully functioning app. 
+                </p>
+
+                <div class="btn-group"> 
+                    <a href="https://clipchamp.com/watch/qZkldiqC964" target="_blank" class="btn live-demo-btn">
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/timothysbutler/AR-PacMan-OSU" target="_blank" class="btn view-code-btn">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-2 flex">
+            <div class="project-img">
+                <img src="img/portfolio_page.png" alt="">
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                    This website!
+                </h1>
+
+                <p class="project-description">
+                    This website is mostly HTML with the help of JavaScript. There is another portfolio that I am working on. Once that is complete, a link to that will be provided here.
+                </p>
+
+                <div class="btn-group">
+                    <a id="live-btn" class="btn live-demo-btn">
+                        Live Demo
+                    </a>
+
+                    <a href="https://github.com/timothysbutler/portfolio" target="_blank" class="btn view-code-btn">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== About Section ==============  -->
+    <div class="about-section section" id="about">
+        <h1 class="section-header">
+            About Me
+        </h1>
+
+        <div class="about-content flex">
+            <div class="about-img flex">
+                <img src="img/main_photo.png" alt="">
+            </div>
+
+            <div class="about-info">
+                <h1 class="content-header">
+                    Engineer by day, _____ by night.
+                </h1>
+
+                <p class="content-body">
+                    From the start of my childhood building asymmetrical lego buildings to eventually building my own website, I always had a interest in "how things work". I grew up in the Boise area of Idaho. I enjoy the outdoors, exercising, and video games. I am currently training for my first triatholon the 70.3 Ironman! 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== contact section ============= -->
+    <div class="contact-section section" id="contact">
+        <h1 class="section-header">
+            Contact Me
+        </h1>
+
+        <form action="https://formsubmit.co/timothysbutler@outlook.com" method="POST" class="contact-form flex">
+            <div class="contact-group flex">
+                <input type="text" name="username" placeholder="Your name" required id="">
+                <input type="email" name="email" placeholder="Your email" required id="">
+            </div>
+            <textarea name="" id="" required placeholder="Your message" cols="30" rows="10"></textarea>
+
+            <button class="btn submit-btn">
+                Send Message
+            </button>
+        </form>
+    </div>
+
+    <!-- =============== footer section =============  -->
+    <div class="footer-section section flex">
+        <div class="footer-header">
+            <h1>
+                Timothy Butler
+            </h1>
+        </div>
+
+        <div class="footer-nav">
+            <ul class="nav flex">
+                <li><a class="social-icon" href="https://www.linkedin.com/in/timothy-s-butler/" target="_blank">
+                    <i class="bx bxl-linkedin"></i>
+                </a></li>
+                <li><a class="social-icon" href="https://www.instagram.com/itsmrbutler/" target="_blank">
+                    <i class="bx bxl-instagram"></i>
+                </a></li>
+                <li><a class="social-icon" href="https://github.com/timothysbutler" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- =============== custom js file  ============= -->
+    <script src="dist/script.js"></script>
+</body>
+</html>
